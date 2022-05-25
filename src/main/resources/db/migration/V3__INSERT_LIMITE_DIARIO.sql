@@ -1,0 +1,1 @@
+INSERT INTO public.limite_diario(id, agencia, conta, data, valor) VALUES (1, 144, 336419, now(), 580);
