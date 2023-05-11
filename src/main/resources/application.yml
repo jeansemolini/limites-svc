@@ -31,3 +31,23 @@ limite:
 app:
   topic: transaction
   returnTopic: transaction_estorno
+
+document:
+  bucket-name: coffeeandit.spring.semolini
+
+cloud:
+  aws:
+    region:
+      static: us-east-1
+    stack:
+      auto: false
+    credentials:
+      access-key:
+      secret-key:
+
+logging:
+  level:
+    com:
+      amazonaws:
+        util:
+          EC2MetadataUtils: error
